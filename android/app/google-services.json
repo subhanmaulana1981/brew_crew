@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "944650089491",
+    "project_id": "musisi-brew-crew",
+    "storage_bucket": "musisi-brew-crew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944650089491:android:5eb0be960633b21e13fbe6",
+        "android_client_info": {
+          "package_name": "com.example.brew_crew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944650089491-95gl1d3o9ks0f19nr3cir8vcbufe1it4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAetbLS5thCIpIeycTEoy2kbQ97p915cRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944650089491-95gl1d3o9ks0f19nr3cir8vcbufe1it4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
