@@ -13,7 +13,7 @@ class Wrapper extends StatelessWidget {
     final pengguna = Provider.of<Pengguna>(context);
     
     // return either Home or Authenticate widget
-    print("id pengguna dari wrapper: ${pengguna.uid}");
+    // print("id pengguna dari wrapper: ${pengguna.uid}");
     if (pengguna.uid == "" || pengguna.uid == "Pengguna belum sign-in") {
       return const Authenticate();
     } else {

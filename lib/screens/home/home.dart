@@ -40,7 +40,7 @@ class Home extends StatelessWidget {
               onPressed: () async {
                 await _auth.signOut();
                 dynamic result = await _auth.signOut();
-                print("result dari signOut: $result");
+                // print("result dari signOut: $result");
               },
             ),
             IconButton(

@@ -112,8 +112,7 @@ class _SignInState extends State<SignIn> {
                                     dynamic result =
                                         await _auth.signInWithEmailAndPassword(
                                             email!, password!);
-                                    print(
-                                        "result dari signIn: ${result.toString()}");
+                                    // print("result dari signIn: ${result.toString()}");
                                     if (result.toString() ==
                                         "Instance of 'Future<dynamic>'") {
                                       setState(() {

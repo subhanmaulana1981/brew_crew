@@ -99,8 +99,8 @@ class _SettingsFormState extends State<SettingsForm> {
                               (_currentName ?? penggunaData?.name)!,
                               (_currentStrength ?? penggunaData?.strength)!
                           );
-                          
-                          Navigator.pop(context);
+
+                          if (context.mounted) Navigator.pop(context);
                         }
                       },
                       child: const Text(

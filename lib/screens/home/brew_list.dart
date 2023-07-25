@@ -15,7 +15,7 @@ class _BrewListState extends State<BrewList> {
   @override
   Widget build(BuildContext context) {
 
-    final brews = Provider.of<Iterable<Brew>>(context).toList() ?? [];
+    final brews = Provider.of<Iterable<Brew>>(context).toList();
 
     // print("brews collection: $brews.documents");
     /*for (var doc in brews.docs) {
